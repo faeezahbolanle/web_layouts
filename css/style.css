@@ -1,4 +1,113 @@
-img{
-    float: right;
+*{
+    box-sizing: border-box;
+}
+
+.image{
+    float: left;
     margin-right: 1em;
+}
+.float-multiple{
+    /* min-height: 100vh; */
+}
+.float{
+    height: 150px;
+    width: 150px;
+    background: pink;
+    border:1px solid red;
+    float: none;
+
+}
+.clearfix::after{
+    display: table;
+    clear: both;
+    content: '';
+
+}
+.float-style{
+    /* display: flex; */
+    padding: 0.5em 1em;
+    /* margin: ; */
+}
+.col{
+    width: 30%;
+    float: left;
+    /* margin-right: 3%; */
+}
+.float-layout-one{
+    background: #a9e5bb;
+    padding: 1em 2em;
+}
+.name{
+    padding: 1em 2em;
+}
+.float-layout-two{
+    margin: 3%;
+    /* width: ; */
+    /* float: left;"" */
+    padding: 2em 4em;
+
+}
+.firstfloat{
+    background: rgb(0, 204, 255);
+    float: left;
+    width: 25%;
+    /* margin: 3%; */
+}
+.fourthfloat{
+    background-color: #a9e5bb;
+    float:left;
+    width: 50%;
+    /* margin: 3%; */
+}
+.secondfloat{
+    background:rgb(0, 204, 255); 
+    float: right;
+    width: 25%;
+    /* margin: 3%;? */
+}
+.thirdfloat{
+    background: rgba(0, 60, 255, 0.918);
+    clear: both;
+    padding: 1em 3em;
+    /* margin: 3%; */
+    /* width: 50%; */
+
+}
+.faeezah{
+    /* background: #a9e5b88e; */
+    background-color: aqua;
+}
+.faeezah2{
+    /* height: 20rem; */
+    /* width: 10rem; */
+    /* padding: 0.5rem 1rem; */
+    /* outline: black; */
+    /* border: black; */
+    text-align: center;
+    /* align-items: center; */
+    /* display: block; */
+    border: 2px solid black;
+    /* justify-content: center; */
+    float: left;
+    width: 150px;
+    overflow:hidden;
+    /* background-color: aqua;s */
+    background: aqua;
+}
+.qwerty{
+    display: block;
+    /* border-color: black; */
+    /* height: 150px; */
+    /* width: 80px; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* border: 2px solid ; */
+    max-width: 100%;
+    background: aqua;
+}
+.box{
+    text-align: center;
+    /* align-items: center; */
+    padding: 1rem;
+    /* background: aqua; */
 }
