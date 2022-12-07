@@ -96,7 +96,8 @@
     overflow:hidden;
     /* background-color: aqua;s */
     background: aqua;
-    box-shadow: ;
+    box-shadow:1px 1px black ;
+    box-shadow: -100px -100px;
     /* margin-inline: auto; */
     margin-inline: 20px;
 }
