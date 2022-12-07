@@ -14,7 +14,7 @@
     width: 150px;
     background: pink;
     border:1px solid red;
-    float: none;
+    float: left;
 
 }
 .clearfix::after{
