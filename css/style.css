@@ -14,7 +14,7 @@
     width: 150px;
     background: pink;
     border:1px solid red;
-    float: none;
+    float: left;
 
 }
 .clearfix::after{
@@ -86,13 +86,14 @@
     text-align: center;
     /* align-items: center; */
     /* display: block; */
-    border: 2px solid black;
+    border: 1px solid black;
     /* justify-content: center; */
     float: left;
     width: 150px;
     overflow:hidden;
     /* background-color: aqua;s */
     background: aqua;
+    box-shadow: ;
 }
 .qwerty{
     display: block;
